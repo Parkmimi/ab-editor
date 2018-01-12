@@ -1,0 +1,9 @@
+{
+  "order" : 2,
+  "group_name" : "emoji",
+  "sticker_name" : "emoji",
+  "img-width" : "30px",
+  "img-height" : "30px",
+  "normal_url" : "/plugins/ab-editor/images/aio_systemface_normal@2x.png",
+  "clicked_url" : "/plugins/ab-editor/images/aio_systemface_press@2x.png"
+}

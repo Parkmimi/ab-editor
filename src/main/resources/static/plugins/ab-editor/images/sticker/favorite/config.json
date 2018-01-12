@@ -1,0 +1,9 @@
+{
+  "order" : 3,
+  "group_name" : "喜爱",
+  "sticker_name" : "favorite",
+  "img-min-width" : "50px",
+  "img-min-height" : "50px",
+  "normal_url" : "/plugins/ab-editor/images/aio_favourite_normal@2x.png",
+  "clicked_url" : "/plugins/ab-editor/images/aio_favourite_press@2x.png"
+}

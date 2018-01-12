@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap/js/bootstrap.js"></script>
+    <script src="plugins/ab-editor/ABEditor.js"></script>
+    <script src="plugins/codemirror/codemirror.js"></script>
+    <script src="plugins/markdown-it/markdown-it.js"></script>
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/codemirror/codemirror.css">
+    <link rel="stylesheet" href="plugins/ab-editor/ABEditor.css">
+
+    <script src="plugins/jquery-file-upload/vendor/jquery.ui.widget.js"></script>
+    <script src="plugins/jquery-file-upload/jquery.iframe-transport.js"></script>
+    <script src="plugins/jquery-file-upload/jquery.fileupload.js"></script>
+</head>
+<style>
+
+</style>
+<body>
+<!--<div style="border: 1px solid #EB5424; height: 600px">-->
+<!--12343-->
+<!--</div>-->
+<div id="ab_editor_demo">
+
+</div>
+
+<div style="text-align: center;margin-top: 50px;">
+    <input type="button" value="获取编辑器值" id="js_editor_val" class="btn btn-default" />
+</div>
+<!--<div style="border: 1px solid #00ff00; height: 400px;">-->
+<!--343-->
+<!--</div>-->
+</body>
+<script>
+    (function () {
+        var editor = $('#ab_editor_demo').ABEditor({
+            "url": "./api/ab-editor/upload_json.php",
+            "emoji_api": "./api/ab-editor/emoji.php",
+            "height": 400
+        });
+
+        $('#js_editor_val').click(function () {
+            alert(editor.getValue());
+        });
+    })();
+</script>
+</html>

@@ -1,0 +1,9 @@
+{
+  "order" : 1,
+  "group_name" : "QQ表情包",
+  "sticker_name" : "qq",
+  "img-width" : "30px",
+  "img-height" : "30px",
+  "normal_url" : "/plugins/ab-editor/images/qq-normal.png",
+  "clicked_url" : "/plugins/ab-editor/images/qq-press.png"
+}
